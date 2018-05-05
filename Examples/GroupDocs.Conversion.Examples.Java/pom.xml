@@ -21,12 +21,18 @@
 			<version>1.11.34</version>
 		</dependency>
 		<dependency>
-   			<groupId>com.groupdocs</groupId>
-   			<artifactId>groupdocs-conversion</artifactId>
-   			<version>17.10</version>
-		</dependency>
-
+			<groupId>com.groupdocs</groupId>
+			<artifactId>groupdocs-conversion</artifactId>
+			<version>17.12</version>
+		</dependency> 
 	</dependencies>
+	 <repositories>
+		<repository>
+			<id>GroupDocsJavaAPI</id>
+			<name>GroupDocs Java API</name>
+			<url>http://artifact.groupdocs.com/repo/</url>
+		</repository>
+	</repositories>
 	<build>
 		<resources>
 			<resource>
